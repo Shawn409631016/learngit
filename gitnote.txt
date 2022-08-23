@@ -30,3 +30,9 @@
 此後，每次本地提交後，只要有必要，就可以使用命令git push origin master推送最新修改；
 
 從github克隆:                   git clone git@github.com:帳戶名/repo名.git
+
+創建分支並切換過去:                       git checkout -b 分支名
+查看當前分支:                   git branch
+轉換到master/dev分支            git checkout master/dev
+將(分支)合併到當前分支           git merge 分支名   ex:將dev合併到master -> git merge dev(當前在master)
+刪除分支                        git branch -d dev
