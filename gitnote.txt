@@ -6,3 +6,6 @@
 提交到倉庫                        git commit -m "更新了什麼"
 查看倉庫狀態                      git status
 修改狀態                          git diff 檔名
+查看歷史紀錄                      git log
+回到上一個版本                    git reset --hard HEAD^
+回到某版本                        git reset --hard (git log 找 commit id)
