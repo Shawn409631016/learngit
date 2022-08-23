@@ -10,3 +10,4 @@
 找commit id                      git reflog
 回到上一個版本                    git reset --hard HEAD^
 回到某版本                        git reset --hard (git log 或 git reflog 找 commit id)
+回復到上次add或commit的狀態       git checkout -- 檔名
