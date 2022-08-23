@@ -39,6 +39,6 @@
                                git switch master/dev
 
 將(分支)合併到當前分支           git merge 分支名   ex:將dev合併到master -> git merge dev(當前在master)
-刪除分支                        git branch -d 分支名
+刪除分支                        git branch -D 分支名
 
 禁用Fast forward模式merge dev到當前     git merge --no-ff -m "描述" dev
