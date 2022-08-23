@@ -2,3 +2,7 @@
 切換到目錄                        cd 名稱
 顯示當前目錄路徑                   pwd
 將此目錄變成git可以管理的倉庫      git init
+添加到倉庫                        git add 檔名
+提交到倉庫                        git commit -m "更新了什麼"
+查看倉庫狀態                      git status
+修改狀態                          git diff 檔名
