@@ -18,3 +18,11 @@
                                 2.將版本庫也刪除:git rm test.txt
                                                 git commit -m"remove test"
                                   復原: git reset --hard HEAD^ 或 git reset --hard (commit id)           
+
+要關聯一個遠程庫，使用命令git remote add origin git@github.com:帳戶名/repository名.git；
+
+關聯一個遠程庫時必須給遠程庫指定一個名字，origin是默認習慣命名；
+
+關聯後，使用命令git push -u origin master第一次推送master分支的所有內容；
+
+此後，每次本地提交後，只要有必要，就可以使用命令git push origin master推送最新修改；
