@@ -11,3 +11,10 @@
 回到上一個版本                    git reset --hard HEAD^
 回到某版本                        git reset --hard (git log 或 git reflog 找 commit id)
 回復到上次add或commit的狀態       git checkout -- 檔名
+
+工作區文件刪除或rm test.txt
+                                1.復原: git restore test.txt
+                                
+                                2.將版本庫也刪除:git rm test.txt
+                                                git commit -m"remove test"
+                                  復原: git reset --hard HEAD^ 或 git reset --hard (commit id)           
