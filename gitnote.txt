@@ -29,6 +29,9 @@
 
 此後，每次本地提交後，只要有必要，就可以使用命令git push origin master推送最新修改；
 
+查看遠程庫 git remote -v
+刪除遠程庫 git remote rm 庫名
+
 從github克隆:                   git clone git@github.com:帳戶名/repo名.git
 
 創建分支並切換過去:              git checkout -b 分支名
