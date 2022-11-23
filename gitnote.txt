@@ -1,6 +1,4 @@
-﻿//testing
-
-查看                              ls
+﻿查看                              ls
 看內容                            cat 檔名
 創建目錄                          mkdir 名稱
 切換到目錄                        cd 名稱
